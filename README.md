@@ -1,1 +1,3 @@
-# nuxt-init
+# 
+
+git config --local test commit
