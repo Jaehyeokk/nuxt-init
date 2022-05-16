@@ -4,28 +4,35 @@ Nuxt프로젝트 초기설정을 정리하면서 boilerplate로 사용가능하�
 
 ##  프로젝트 생성
 
-Version info
+### Version info
+
 ```
 node v14.17.0
 npm v6.14.13
 ```
 
-Create App command
+### Create App command
+
 ```bash
 $ npm init nuxt-app <project-name>
 ```
 
-Select options
-<img src="/assets/images/project-options.png" alt="project options" style="display: block;">
+### Select options
+
+<br />
+<img src="/assets/images/project-options.png" alt="project options">
+<br />
 
 ## prettier 설정
 
-Install prettier packages
+### Install prettier packages
+
 ```bash
 $ npm i -D prettier eslint-config-prettier eslint-plugin-prettier
 ```
 
-Setting .eslintrc
+### Setting .eslintrc
+
 ```js
 module.exports = {
   root: true,
