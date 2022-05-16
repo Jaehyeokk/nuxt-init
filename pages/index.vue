@@ -1,9 +1,11 @@
 <template>
-  <Tutorial />
+  <div>Hello world</div>
 </template>
 
 <script>
+import dimmedScroll from '@/mixins/dimmedScroll.js';
 export default {
-  name: 'IndexPage'
-}
+  name: 'IndexPage',
+  mixins: [dimmedScroll],
+};
 </script>
